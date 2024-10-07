@@ -1,0 +1,10 @@
+{
+    "build": {
+      "cmd": "./gradlew bootJar"  
+    },
+    "deploy": {
+      "command": "java -jar build/libs/demo-0.0.1-SNAPSHOT.jar"  
+    }
+    
+  }
+  
